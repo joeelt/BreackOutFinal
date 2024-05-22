@@ -1,0 +1,292 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	text-align: center;
+	background: #333 url(../images/20151006051016_votacion-estrellas-css.jpg);
+	color: #eee;
+	background-size: cover;
+}
+
+#principal {
+	width: 960px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+#joc {
+	position: relative;
+	margin-top: 40px;
+	width: 740px;
+	height: 400px;
+	background: rgba(232, 232, 232, 0.5);
+	display: block;
+	margin: 0 auto;
+}
+
+#inici,
+#fi {
+	position: absolute;
+	left: 275px;
+	top: 50px;
+	width: 400px;
+	height: 300px;
+	margin: 200px auto;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+	border: thick #990 solid;
+	border-radius: 25px;
+	background-color: #CFC;
+	opacity: 0.9;
+}
+
+.dreta {
+	text-align: right;
+}
+
+#game {
+	background-color: #eee;
+	/* color gris clar  */
+	border: #666 50px solid;
+	border-bottom-width: 0;
+	display: block;
+	margin: 0 auto;
+}
+
+#capçalera {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1.2em;
+	background-color: #A3A352;
+	/* rgb(163,163,82) */
+	height: 200px;
+	border-radius: 25px;
+}
+
+#menu {
+	width: 50%;
+	background-color: rgb(0, 0, 0);
+	margin: 0 auto;
+	border-radius: 25px;
+	height: 400px;
+
+}
+
+button#start {
+	background-color: #03eeff;
+	color: #000;
+	border: 2px solid #000;
+}
+
+.menu-container {
+	border: 2px solid #000;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'Games', sans-serif;
+	
+}
+
+.menu {
+	text-align: center;
+}
+
+.input-section,
+.difficulty-section {
+	margin: 20px 0;
+}
+
+button {
+	margin: 0 10px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	border: 2px solid #000;
+	/* Agrega un borde negro /
+    border-radius: 5px; / Ajusta el radio del borde */
+}
+
+#facil {
+	background-color: green;
+	color: white;
+}
+
+#normal {
+	background-color: yellow;
+	color: black;
+}
+
+#dificil {
+	background-color: red;
+	color: white;
+}
+
+#nombre {
+	padding: 5px;
+	font-size: 16px;
+}
+
+/* */
+
+@font-face {
+    font-family: "70sDisco-Regular";
+    src: url("fonts/70sDisco-Regular.ttf") format("truetype");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background: #333 url(../images/background_atari.jpg);
+    color: #eee;
+    background-size: cover;
+    font-family: "70sDisco-Regular";
+}
+
+
+body,
+button,
+input {
+    font-size: 50px; 
+}
+
+/* Efecto de color de neón rosado */
+body {
+    text-shadow: 0 0 10px #ff8cff, 0 0 20px #ff8cff, 0 0 30px #ff8cff, 0 0 40px #ff8cff, 0 0 50px #ff8cff, 0 0 60px #ff8cff, 0 0 70px #ff8cff;
+}
+
+#principal {
+    width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#joc {
+    position: relative;
+    margin-top: 40px;
+    width: 740px;
+    height: 400px;
+    background: rgba(232, 232, 232, 0.5);
+    display: block;
+    margin: 0 auto;
+}
+
+#inici,
+#fi {
+    position: absolute;
+    left: 275px;
+    top: 50px;
+    width: 400px;
+    height: 300px;
+    margin: 200px auto;
+    font-family: "70sDisco-Regular"; /* Ajusta la fuente */
+    font-size: 1.5em; /* Ajusta el tamaño de la letra */
+    text-align: center;
+    border: thick #990 solid;
+    border-radius: 25px;
+    background-color: #CFC;
+    opacity: 0.9;
+}
+
+.dreta {
+    text-align: right;
+}
+
+#game {
+    background-color: #eee;
+    /* color gris clar  */
+    border: #666 50px solid;
+    border-bottom-width: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+#capçalera {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 1.2em;
+    background-color: #A3A352;
+    /* rgb(163,163,82) */
+    height: 200px;
+    border-radius: 25px;
+}
+
+#menu {
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    border-radius: 25px;
+    height: 400px;
+	font-family: "70sDisco-Regular";
+}
+
+button#start {
+    background-color: #03eeff;
+    color: #000;
+    border: 2px solid #000;
+	font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.menu-container {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "70sDisco-Regular";
+}
+
+.menu {
+    text-align: center;
+	font-family: "70sDisco-Regular";
+}
+
+.input-section,
+.difficulty-section {
+    margin: 20px 0;
+	font-family: "70sDisco-Regular";
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #000;
+    /* Agrega un borde negro */
+    border-radius: 5px; /* Ajusta el radio del borde */
+	font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#facil {
+    background-color: green;
+    color: white;
+}
+
+#normal {
+    background-color: yellow;
+    color: black;
+}
+
+#dificil {
+    background-color: red;
+    color: white;
+}
+
+#nombre {
+    padding: 5px;
+    font-size: 16px;
+}
